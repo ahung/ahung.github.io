@@ -1,0 +1,31 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.main_ctn {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 28px;
+  height: 100vh;
+  display: flex;
+}
+
+.material-icons.md-256 {
+  font-size: 256px;
+}
+
+a.btn_link {
+  border: 2px solid #42C0FB;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #42C0FB;
+}
+
+a.btn_link:hover {
+  background-color: #42C0FB;
+  color: white;
+}
